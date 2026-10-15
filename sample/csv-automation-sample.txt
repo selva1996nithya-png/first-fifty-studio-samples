@@ -1,0 +1,22 @@
+FICTIONAL DATA SAMPLE — not a client dataset
+
+Input:
+ name , category
+ Aurora , design
+Aurora,design
+Boreal,engineering
+
+Output:
+name,category
+Aurora,design
+Boreal,engineering
+
+Report: 2 rows kept, 1 exact duplicate removed.
+The dependency-free Python utility trims headers/fields, preserves field case
+and quoted commas, removes exact duplicates, rejects inconsistent row lengths
+and header collisions, and refuses to overwrite an existing output file.
+It processes supplied files locally; no API subscription is needed.
+
+Example paid scope: one CSV under an agreed size limit, explicit cleanup rules,
+cleaned file, change summary and a rerunnable script, with one scoped revision.
+No inferred or invented values; any ambiguous records are flagged for review.

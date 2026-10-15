@@ -1,0 +1,16 @@
+FICTIONAL TECHNICAL SAMPLE — not a paid client project
+
+Problem: an estimate link points to #request, but only id="contact" exists.
+Before: <a href="#request">Request an estimate</a>
+After:  <a href="#contact">Request an estimate</a>
+Target: <section id="contact"><h2>Contact</h2>...</section>
+
+The deliberately broken fixture also has an empty title and no description or
+viewport metadata. The repaired fixture adds a descriptive title, description,
+and viewport declaration. The existing dependency-free source checker reports
+four findings before and zero after. Four parser tests passed.
+
+Limits: this source check does not execute JavaScript or certify rendering,
+accessibility, SEO results, or conversions. Live issues require confirmation.
+Deliverables for a paid task: agreed source patch, before/after evidence,
+and one revision within the agreed scope. Deployment is agreed separately.
