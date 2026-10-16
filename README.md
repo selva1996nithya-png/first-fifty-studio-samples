@@ -2,7 +2,7 @@
 
 Small, clearly scoped data, writing and website jobs. These examples show the kind of deliverables you can inspect before agreeing to a project.
 
-**Every sample is fictional.** These are demonstrations, not paid-client work or claims of commercial results.
+**The service examples under `sample/` are fictional.** The research and motion examples use cited public sources. These are demonstrations and unpaid bounty entries, not paid-client work or claims of commercial results.
 
 | Service | Fixed package | Deliverables | Contact / offer |
 | --- | --- | --- | --- |
@@ -39,3 +39,10 @@ For the CSV command, supply your own input file and a new output path. The utili
 The page checker reads **initial HTML only**. It checks a small set of source conditions: title, description, viewport declaration and local fragment targets. Findings need browser confirmation. It does not execute JavaScript, test forms or payments, certify mobile rendering, perform an accessibility audit, or measure performance or search rankings.
 
 The fictional before page produces four source findings; the after page produces none. Four parser tests and local CSV checks passed when preparing this repository. That result describes these fixtures, not a guarantee about an arbitrary live website.
+
+## Research and motion examples
+
+- [Published Mycelium data analysis](https://dev.to/ella_russell/myceliums-useful-next-step-make-the-liquidity-map-easier-to-act-on-49mo): timestamped research and a chart built from recorded source data.
+- [26-second coastal explainer MP4](motion/higher-baseline.mp4), [preview](motion/preview.png), [fact notes](motion/sources.md), and [editable Python source](motion/render.py). Original deterministic motion graphics with visible source tags; 1080×1350, H.264, 24 fps. AI assistance was used for research and code; no generative video model or stock footage was used. Prepared as a bounty entry; no payment or client endorsement is claimed.
+
+![Coastal explainer preview](motion/preview.png)
